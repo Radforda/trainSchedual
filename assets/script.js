@@ -20,7 +20,7 @@ var config = {
     // Grabs user input
     var trainName = $("#train-name-input").val().trim();
     var trainDestination = $("#destination-input").val().trim();
-    var trainFirst = moment($("#first-train-input").val().trim(), "DD/MM/YY").format("X");
+    var trainFirst = moment($("#first-train-input").val().trim(), "hh:mm").format("X");
     var trainFrequecy = $("#frequency-input").val().trim();
   
     // Creates local "ttrainorary" object for holding train data
