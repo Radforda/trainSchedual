@@ -1,1 +1,2 @@
 # trainSchedual
+This is a web app to input and veiw train scheduals.  It calculates the next train time and the minutes untill that train based on the first train of the the day and the frequency of trains.
