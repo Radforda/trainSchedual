@@ -23,7 +23,7 @@ var config = {
     var trainFirst = moment($("#first-train-input").val().trim(), "hh:mm").format("X");
     var trainFrequecy = $("#frequency-input").val().trim();
   
-    // Creates local "ttrainorary" object for holding train data
+    // Creates local "train" object for holding train data
     var newtrain = {
       name: trainName,
       destination: trainDestination,
